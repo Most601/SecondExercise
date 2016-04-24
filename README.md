@@ -1,6 +1,6 @@
 # NMEA-The National Marine Electronics Association
 
-#### NMEA to KML/CSV 
+#### NMEA to KML / CSV 
 -----------------------------------------------------------
 converting NMEA files to csv or kml file type using python 
 
