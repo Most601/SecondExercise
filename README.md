@@ -1,7 +1,16 @@
-# NMEA to KML/CSV 
+# NMEA-The National Marine Electronics Association
 
-####NMEA-The National Marine Electronics Association
-converting nmea files to csv or kml file type using python 
+#### NMEA to KML/CSV 
+-----------------------------------------------------------
+converting NMEA files to csv or kml file type using python 
+
+We used Python to convert NMEA file to database ( MySQL ) .
+
+The user can choose what type of file it wishes to deliver it to CSV or KML
+
+The user can also filter and select what they want to see (such as height velocity etc ...)
+
+-----------------------------------------------------------
 
 ##Software to view NMEA files
 ####1.VisualGPS 4.2
@@ -39,9 +48,12 @@ VisualGPS incorporates many advanced features found in professional programs. It
 
 [[link to nmea2kmz website]](http://homepage2.nifty.com/k8/gps/file/nmea2kmz.htm)
 
-####3. 
+####3. SATGEN 3
 
+* Creating your own scenarios couldn't be easier. If you have an NMEA file which contains GGA data, then you can import this directly into the software or alternatively, you can start from scratch by creating a route in Google Earth, or build a profile using simple user commands.
+* Developed with the user in mind, this software allows you to create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen. You can also draw a route by simply clicking-on a series of locations on the map.
 
+[[link to SATGEN 3 website]](http://www.labsat.co.uk/index.php/en/products/satgen-simulator-software)
 
 
 ## Authors:
