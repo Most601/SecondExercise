@@ -12,7 +12,7 @@ The user can also filter and select what they want to see (such as height veloci
 
 -----------------------------------------------------------
 
-##Software to view NMEA files
+##Software to view & convert NMEA files
 ####1.VisualGPS 4.2
 VisualGPS incorporates many advanced features found in professional programs. Its sole purpose is to display graphically specific NMEA 0183 sentences and show the effects of selective availability (SA).
 #####Features:
