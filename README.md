@@ -16,8 +16,7 @@ In addition, we selected ***two*** software tools that allow visual display of N
 
 1. **VisualGPS 4.2 ([link to website](http://www.visualgps.net/visualgps/)):**  
       VisualGPS display graphically specific NMEA 0183 sentences and show the effects of selective availability (SA).  
-      *Features:*
-      1. Azimuth and Elevation Graph: 
+      *Features:* 1. Azimuth and Elevation Graph: 
         * view all satellites that are in view.
         * plot and print the physical mask angle.
       2. Survey:
