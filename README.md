@@ -16,7 +16,8 @@ In addition, we selected ***two*** software tools that allow visual display of N
 
 1. **VisualGPS 4.2 ([link to website](http://www.visualgps.net/visualgps/)):**  
       VisualGPS display graphically specific NMEA 0183 sentences and show the effects of selective availability (SA).  
-      *Features:*
+
+      **Features:**
       1. Azimuth and Elevation Graph: 
         * view all satellites that are in view.
         * plot and print the physical mask angle.
@@ -28,7 +29,8 @@ In addition, we selected ***two*** software tools that allow visual display of N
 
 2. **SatGen 3 ([link to website](http://www.labsat.co.uk/index.php/en/products/satgen-simulator-software)):**  
       SatGen NMEA is a very powerful, free piece of GPS Simulation software from Racelogic that allows you to create NMEA files and generate real-time NMEA serial streams.  
-      *Features:*
+
+      **Features:**
       1. Import NMEA file which contains GGA data directly into the software or alternatively to create a route in Google Earth, or build a profile using simple user commands.
       2. Create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen.
       3. To draw a route by simply clicking-on a series of locations on the map.
