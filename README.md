@@ -1,6 +1,6 @@
 #Convert NMEA files to CSV or KML file using python
 
-In this project we created a system that converting NMEA files to CSV (Comma-separated values) or KML (Keyhole Markup Language) file type using python.  
+In this project we created a system that converting NMEA files to CSV (Comma-separated values) or KML (Keyhole Markup Language) file type using python language.  
 
 **The system allows:**  
 * uploading NMEA files to database (we used MySQL).
