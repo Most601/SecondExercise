@@ -1,60 +1,51 @@
-# NMEA-The National Marine Electronics Association
+#Second Exercise
 
-#### NMEA to KML / CSV 
------------------------------------------------------------
-converting NMEA files to csv or kml file type using python 
+In this project we focused on two subjects:
 
-We used Python to convert NMEA file to database ( MySQL ) .
+**1.** Precise and detailed planning of a software library.  
+**2.** Writing the project in Python language and testing it on an agreed Benchmark.
 
-The user can choose what type of file it wishes to deliver it to CSV or KML
+##Task 0:
 
-The user can also filter and select what they want to see (such as height velocity etc ...)
+####Introducing with NMEA (National Marine Electronics Association) files:
 
------------------------------------------------------------
+In this part of the project we have prepared a collection of NMEA files from the Internet and from our mobile phones:  
+LG G3, Samsung 5, Sumsung 4s and iPhone 6s.  
+The NMEA files was saved in different conditions: walking, driving in a car, flight and missile that was launched.  
+In addition, we selected ***two*** software tools that allow visual display of NMEA files:
 
-##Software to view & convert NMEA files
-####1.VisualGPS 4.2
-VisualGPS incorporates many advanced features found in professional programs. Its sole purpose is to display graphically specific NMEA 0183 sentences and show the effects of selective availability (SA).
-#####Features:
-* Azimuth and Elevation Graph - View all satellites that are in view. Each satellite identifies its pseudo random number (PRN) and its azimuth and elevation. Also plot and print  the physical mask angle.
-* Survey - The survey window displays both position and xDOP (HDOP and VDOP) parameters. The ability for user selectable HDOP/VDOP color thresholds for position averaging make a great utility. Also monitor Standard Deviation and effects of Selective Availability.   That's not all - print the results graphically.
-* Signal Quality/SNR Window - Monitor satellite signal to noise ratios and see them graphically on the screen. The signal quality window will grow or shrink to accommodate number of satellites in view
-* Navigation - Monitor latitude, longitude and altitude
-* NMEA Command Monitor - View NMEA sentences as they are received
+1. **VisualGPS 4.2 ([link to website](http://www.visualgps.net/visualgps/)):**  
+      VisualGPS display graphically specific NMEA 0183 sentences and show the effects of selective availability (SA).  
+      *Features:*  
+      1. Azimuth and Elevation Graph: 
+        * view all satellites that are in view.
+        * plot and print the physical mask angle.
+      2. Survey:
+        * the survey window displays both position and xDOP (HDOP and VDOP) parameters.
+        * monitor Standard Deviation and effects of Selective Availability.  Print the results graphically.
+      3. Signal Quality/SNR Window: monitor satellite signal to noise ratios and see them graphically on the screen.
+      4. NMEA Command Monitor: view NMEA sentences as they are received.  
 
-[[link to visualGPS website]](http://www.visualgps.net/)
+2. **SatGen 3 ([link to website](http://www.labsat.co.uk/index.php/en/products/satgen-simulator-software)):**  
+      SatGen NMEA is a very powerful, free piece of GPS Simulation software from Racelogic that allows you to create NMEA files and generate real-time NMEA serial streams.
+      *Features:*
+      1. Import NMEA file which contains GGA data directly into the software or alternatively to create a route in Google Earth, or build a profile using simple user commands.
+      2. Create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen.
+      3. To draw a route by simply clicking-on a series of locations on the map.
 
-####2.NMEA to KMZ file converter
+##Task 1:
 
-* Can choose the output of five forms of KMZ, KML, GPX, NMEA and CSV.
-* Track point can output information (KMZ, KML).
-   At data number, date, time, latitude, longitude, speed, altitude by the choice output.
-   Can change a unit of speed in Km/h, mph and kt.
-   Convert the time into local time and can output it.
-* Can choose an icon of a track point (Normal and Overspeed) (KMZ, KML).
-* Can select a Line color and Line width of a track (KMZ, KML).
-* Masks by HDOP, NSAT and thinning out by time and distance can be output.
-* Select the multiple files and batch conversion is possible.
-* Command-line option and drag & drop are supported.
-* Output by a 3D mode is possible and detailed output condition can be set (KMZ, KML).
-   It is possible to display it by replacing the speed with altitude.
-* The range of the output is definable at time.
-* On/Off can output Track and Placemark (KMZ, KML).
-* The icon that the user made for the Placemark icon can be used (KMZ, KML).
-* The logo image that the user made for the title can be displayed (KMZ, KML).
-* The user can add the judgment condition and the function of GPS.
-* The geoid value can be correct by using the geoid grid data according to the latitude longitude.
-* Because the installation is unnecessary, it is possible to execute it on USB memory.
+###Planning the system:
 
-[[link to nmea2kmz website]](http://homepage2.nifty.com/k8/gps/file/nmea2kmz.htm)
+In this part of the project we planned a system that allowing to loading an NMEA files and saving them in database.
+In addition , we added the possibility to produce from the database KML (Keyhole Markup Language) and CSV (Comma-separated values) files.  
+[Link to our UML](https://github.com/Most601/SecondExercise/blob/master/UMLmatala2.png)
 
-####3. SATGEN 3
+##Task 2:
 
-* Creating your own scenarios couldn't be easier. If you have an NMEA file which contains GGA data, then you can import this directly into the software or alternatively, you can start from scratch by creating a route in Google Earth, or build a profile using simple user commands.
-* Developed with the user in mind, this software allows you to create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen. You can also draw a route by simply clicking-on a series of locations on the map.
+###Creating the system:
 
-[[link to SATGEN 3 website]](http://www.labsat.co.uk/index.php/en/products/satgen-simulator-software)
-
+In the final part of the project we created the program.
 
 ## Authors:
 * Idan Nahmias
