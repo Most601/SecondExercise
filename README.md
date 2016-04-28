@@ -27,7 +27,7 @@ In addition, we selected ***two*** software tools that allow visual display of N
       4. NMEA Command Monitor: view NMEA sentences as they are received.  
 
 2. **SatGen 3 ([link to website](http://www.labsat.co.uk/index.php/en/products/satgen-simulator-software)):**  
-      SatGen NMEA is a very powerful, free piece of GPS Simulation software from Racelogic that allows you to create NMEA files and generate real-time NMEA serial streams.
+      SatGen NMEA is a very powerful, free piece of GPS Simulation software from Racelogic that allows you to create NMEA files and generate real-time NMEA serial streams.  
       *Features:*  
       1. Import NMEA file which contains GGA data directly into the software or alternatively to create a route in Google Earth, or build a profile using simple user commands.
       2. Create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen.
