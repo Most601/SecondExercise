@@ -37,7 +37,7 @@ In addition, we selected ***two*** software tools that allow visual display of N
 
 ###Planning the system:
 
-In this part of the project we planned a system that allowing to loading an NMEA files and saving them in database.
+In this part of the project we planned a system that allowing to load an NMEA files and save them in database.
 In addition , we added the possibility to produce from the database KML (Keyhole Markup Language) and CSV (Comma-separated values) files.  
 [Link to our UML](https://github.com/Most601/SecondExercise/blob/master/UMLmatala2.png)
 
