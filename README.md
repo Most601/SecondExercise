@@ -1,13 +1,14 @@
-#Second Exercise
+#Convert NMEA files to CSV or KML file using python
 
-In this project we focused on two subjects:
+In this project we created a system that converting NMEA files to CSV (Comma-separated values) or KML (Keyhole Markup Language) file type using python.  
 
-**1.** Precise and detailed planning of a software library.  
-**2.** Writing the project in Python language and testing it on an agreed Benchmark.
+**The system allows:**  
+* uploading NMEA files to database (we used MySQL).
+* Selecting / filtering the wanted data from the NMEA files (height, velocity, etc ...).
+* Choosing the file type to receive from database (KML or CSV).
+* producing the selected file.
 
-##Task 0:
-
-####Introducing with NMEA (National Marine Electronics Association) files:
+##Introducing with NMEA (National Marine Electronics Association) files:
 
 In this part of the project we have prepared a collection of NMEA files from the Internet and from our mobile phones:  
 LG G3, Samsung 5, Sumsung 4s and iPhone 6s.  
@@ -35,17 +36,13 @@ In addition, we selected ***two*** software tools that allow visual display of N
       2. Create a static scenario, where a position can be manually inserted or easily determined using the integrated Google Maps screen.
       3. To draw a route by simply clicking-on a series of locations on the map.
 
-##Task 1:
-
-###Planning the system:
+##Planning the system:
 
 In this part of the project we planned a system that allowing to load an NMEA files and save them in database.  
-In addition , we added the possibility to produce from the database KML (Keyhole Markup Language) and CSV (Comma-separated values) files.  
+In addition , we added the possibility to produce from the database KML and CSV files.  
 [Link to our UML](https://github.com/Most601/SecondExercise/blob/master/UMLmatala2.png)
 
-##Task 2:
-
-###Creating the system:
+##Creating the system:
 
 In the final part of the project we created the program.
 
