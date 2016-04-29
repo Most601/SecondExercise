@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+     <Folder>
+     <name>Point Features</name>
+     <description>Point Features</description>
+
+<Placemark>
+    <TimeStamp>
+     <when>20-- T10:24:29Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1032842833 <br> Lon: 35.1665680167<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.1665680167,32.1032842833,530.3</coordinates>
+    </Point>
+</Placemark>
+        </Folder>
+    </Document>
+</kml>

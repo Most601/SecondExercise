@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+     <Folder>
+     <name>Point Features</name>
+     <description>Point Features</description>
+
+<Placemark>
+    <TimeStamp>
+     <when>20-- T01:47:08Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1060385333 <br> Lon: 35.2052094<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.2052094,32.1060385333,639.7</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:12:14Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0927671667 <br> Lon: 35.0872984833<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>35.0872984833,32.0927671667, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:12:25Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0940652167 <br> Lon: 35.0830611667<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.0830611667,32.0940652167,554.9</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:12:27Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0942169167 <br> Lon: 35.0824054<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>35.0824054,32.0942169167, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:12:30Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0945290333 <br> Lon: 35.0815108833<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.0815108833,32.0945290333,554.3</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:12:32Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.09471365 <br> Lon: 35.0809542833<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>35.0809542833,32.09471365, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:12:35Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0949450833 <br> Lon: 35.0801728667<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.0801728667,32.0949450833,554.2</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:12:37Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0950789833 <br> Lon: 35.0795403667<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>35.0795403667,32.0950789833, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:12:41Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.0953775167 <br> Lon: 35.0783668167<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>35.0783668167,32.0953775167,559.5</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:19:24Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1022476333 <br> Lon: 34.9719175333<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>34.9719175333,32.1022476333, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:19:27Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1026692667 <br> Lon: 34.9707190333<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>34.9707190333,32.1026692667,55.4</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:19:29Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1028957667 <br> Lon: 34.9700513667<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>34.9700513667,32.1028957667, </coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>20-- T09:19:32Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.1031758167 <br> Lon: 34.9693436667<br> Speed: 35.19 km/h <br>]]></description>
+    <Point>
+        <coordinates>34.9693436667,32.1031758167,66.2</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <TimeStamp>
+     <when>2016-04-01T09:48:04Z</when>
+    </TimeStamp>
+    <description><![CDATA[Lat: 32.2582892833 <br> Lon: 34.8371362833<br> Speed:   <br>]]></description>
+    <Point>
+        <coordinates>34.8371362833,32.2582892833, </coordinates>
+    </Point>
+</Placemark>
+        </Folder>
+    </Document>
+</kml>
