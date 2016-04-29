@@ -1,0 +1,5 @@
+time,latitude,latitude_direction,longitude,longitude_direction,fix,numOfSat,horizontal_dilution,altitude,direct_of_altitude,altitude_location,speed,date
+102429.7,3206.197057,N,03509.994081,E,1,07,1.0,530.3,M,19.0, , 
+102429.7,3206.197057,N,03509.994081,E, , , , , , ,1.1,040416
+103517.7,3206.086006,N,03510.152710,E,1,07,1.0,549.1,M,19.0, , 
+103517.7,3206.086006,N,03510.152710,E, , , , , , ,2.3,040416
