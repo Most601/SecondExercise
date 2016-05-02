@@ -6,7 +6,7 @@ In this project we created a system that converting NMEA files to CSV (Comma-sep
 * Uploading NMEA files to database (we used MySQL).
 * Selecting / filtering the wanted data from the NMEA files (height, velocity, etc ...).
 * Choosing the file type to receive from database (KML or CSV).
-* producing the selected file.
+* Producing the selected file.
 
 ##Introducing with NMEA (National Marine Electronics Association) files:
 
