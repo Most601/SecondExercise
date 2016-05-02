@@ -3,7 +3,7 @@
 In this project we created a system that converting NMEA files to CSV (Comma-separated values) or KML (Keyhole Markup Language) file type using python language.  
 
 **The system allows:**  
-* uploading NMEA files to database (we used MySQL).
+* Uploading NMEA files to database (we used MySQL).
 * Selecting / filtering the wanted data from the NMEA files (height, velocity, etc ...).
 * Choosing the file type to receive from database (KML or CSV).
 * producing the selected file.
