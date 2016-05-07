@@ -44,7 +44,17 @@ In addition , we added the possibility to produce from the database KML and CSV 
 
 ##Creating the system:
 
-In the final part of the project we created the program.
+In the final part of the project we created the program.  
+Explanation what each python file does:  
+**[NMEA_to_DB.py](https://github.com/Most601/SecondExercise/blob/master/NMEA_to_DB.py)-** upload NMEA files to database.  
+**[DB_to_CSV.py](https://github.com/Most601/SecondExercise/blob/master/DB_to_CSV.py)-** convert NMEA files from database to CSV files.  
+**[DB_to_KML.py](https://github.com/Most601/SecondExercise/blob/master/DB_to_KML.py)-** convert NMEA files from database to KML files.  
+**[querytext.py](https://github.com/Most601/SecondExercise/blob/master/querytext.py)-** with a query that was asked returning the relevant information from the database.  
+**[Main.py](https://github.com/Most601/SecondExercise/blob/master/Main.py)-** in the main file we use all the mentioned files to create a graphical user interface that lets the user to upload NMEA files and to choose which action he wants to perform: convert the NMEA files to CSV or KML files, enter a query or to see it on Google Earth.
+
+##Our GUI:  
+
+![gui](https://cloud.githubusercontent.com/assets/12721065/15091848/45b5a770-145f-11e6-9eb2-7b0b227f06cc.jpg)
 
 ## Authors:
 * Idan Nahmias
