@@ -6,36 +6,35 @@ from datetime import datetime
 import math
 
 
-
-
-
 def format_time(value):
     hour = value[:2]
     minute = value[2:4]
     second = value[4:6]
     timeval = hour + ":" + minute + ":" + second + "Z"
     return timeval
+    
 def format_date(value):
     day = value[:2]
     month = value[2:4]
     year = value[4:6]
     dateval = "20"+year+"-"+month+"-"+day+"T"
     return dateval
+    
 def knots_to_kph(value):
-    if value is None :# if value == None:
+    if value is None :
         return ' '
-    elif value == "":  # if row[2].len() == 0:
+    elif value == "":
         return ' '
-    elif value == " ":  # if row[2].len() == 0:
+    elif value == " ":
         return ' '
     else :
         return   str("%.2f" %(float(value)*1.85200)) +" km/h"
 
-    
+#This function operates and opens the database and writing to KML file.  
 def kml():
     my_category = 0
     skip=5
-    database = sqlite3.connect('nmea_to_db.db')#open db
+    database = sqlite3.connect('nmea_to_db.db')
     INPUT = 'NMEAFiles'
     if os.path.isdir(INPUT):
         l = os.listdir(INPUT)
@@ -75,4 +74,3 @@ def kml():
             FILE.write('</kml>\n')
             FILE.close()
     database.close()
-    
