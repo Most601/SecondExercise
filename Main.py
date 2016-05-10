@@ -7,7 +7,6 @@ import math
 import os
 import time
 
-
 import DB_to_CSV as csv
 import DB_to_KML as kml
 import NMEA_to_DB as db
@@ -36,13 +35,20 @@ def querytxt():
     querys.myquery(comm)
     return
 
+def querytxt2():
+    get = query2.get()
+    querys.myquery(get)
+    return
+
+
 root = Tk()
 root.title("NMEA TO CSV PROGRAM")
-root.geometry("310x250")
+root.geometry("308x290")
 app = Frame(root)
 app.grid()
 query = StringVar()
 query1 = StringVar()
+query2 = StringVar()
 
 NmeaRunButton = Button(app , text = "Click to convert!" , command = db.load)
 NmeaRunButton.pack()
@@ -70,5 +76,15 @@ Question1.pack()
 
 EnterQuery = Button(app , text = "Enter", command = querytxt)
 EnterQuery.pack()
+
+L3 = Label(app, text="Enter Query, notice this will be an SQL command! :")
+L3.pack()
+
+Question2 = Entry(app,width = 50, textvariable = query2)
+Question2.pack()
+
+EnterQuery1 = Button(app , text = "Enter", command = querytxt2)
+EnterQuery1.pack()
+
 
 mainloop()
