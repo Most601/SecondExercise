@@ -61,9 +61,13 @@ def nmea(INPUT,TableName):
             # skip all lines that do not start with $GPGGA
             if not row:
                 continue
-            elif row[2] is None:  # if row[2] == None:
+            elif "RMC" in row[0] and row[2] is None:  # if row[2] == None:
                 continue
-            elif row[2] == "":  # if row[2].len() == 0:
+            elif  "RMC" in row[0] and row[2] == "":  # if row[2].len() == 0:
+                continue
+            elif "GGA" in row[0] and row[2] is None:  # if row[2] == None:
+                continue
+            elif  "GGA" in row[0] and row[2] == "":  # if row[2].len() == 0:
                 continue
             elif "GGA" in row[0]  :
                 time = row[1]
