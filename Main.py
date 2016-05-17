@@ -62,7 +62,7 @@ ConvertToKMLbutton.pack()
 GoogleEbutton = Button(app , text = "Show on Google Maps"  , command =  showGoogleEarth)
 GoogleEbutton.pack()
 
-L1 = Label(app, text="Enter Query : ( Exm : data,time )")
+L1 = Label(app, text="Enter Query : ( Exm : speed ,time )")
 L1.pack()
 
 Question = Entry(app,width = 50, textvariable = query)
